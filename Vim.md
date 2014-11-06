@@ -72,7 +72,7 @@
 `< Start of last visual selection 
 `> End of last visual selection
 ```
-`runtime macros/matchit.vim`
+- `runtime macros/matchit.vim`
 
 # Navigate between files
 - `<c-o>/<c-i>` back and forward
