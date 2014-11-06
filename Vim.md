@@ -38,7 +38,7 @@
 - `@:` repeat last Ex command
 - `c-o` revert last Ex command
 - `:%normal A;` set ; at the end of each line
-- ':%normal i//` comment all lines (normal runs from start of line)
+- `:%normal i//` comment all lines (normal runs from start of line)
 - `c-d` list of possible completions
 - `c-rc-w` copy the word under cursor to command promt
 - `%s//<C-r><C-w>/g` `:help <C-r><C-w>`
@@ -59,7 +59,7 @@
 # Motion
 - `gj` `gk` `g0` `g^` `g$` navigate inside wrapped line
 - `d/ge<CR>` remove all until “ge”
-- ia )”`>}]twWsp inside outside
+- `ia )">}]twWsp` inside outside
 - `d{motion}` `c{motion}` `y{motion}`
 - `m{a-zA-Z}` set mark az - local to buffer, AZ - global
 - `{mark}/'{mark} go to marks line/line and column
@@ -75,44 +75,44 @@
 # Navigate between files
 - `<c-o>/<c-i>` back and forward
 - `H/M/L` top/middle/bottom of screen
-- <c-[> jump to definition
-- g;/g, back and forward through the change list
-- gi back to the last insertion position and enter insert mode
-- :set suffixesadd+=.rb suffixes for gf
-- :set path=.,/usr/include,, path for gf
+- `<c-[>` jump to definition
+- `g;/g`, back and forward through the change list
+- `gi` back to the last insertion position and enter insert mode
+- `:set suffixesadd+=.rb` suffixes for gf
+- `:set path=.,/usr/include,,` path for gf
 
 # Registers
-- ““ unnamed register (default for y,p,d)
-- “0 yank register
-- “_ black hole register
-- “{register}[ydp]{motion}
-- “+ clipboard register
-- “* middle mouse button register
-- “= expression register
-- “/ last search pattern
-- “. Last inserted text
-- insert mode <c-r>{register}
+- `""` unnamed register (default for y,p,d)
+- `"0` yank register
+- `"_` black hole register
+- `"{register}[ydp]{motion}`
+- `"+` clipboard register
+- `"*` middle mouse button register
+- `"=` expression register
+- `"/` last search pattern
+- `".` Last inserted text
+- insert mode `<c-r>{register}`
 
 # Macro
-- q{register}{command}q - record macro
-- @{register} play macro
-- @@ replay last play
-- playback stops on motion fail, 1000@a to play all possible 
-- search and replace: qq;.q then 10@q
-- execute macro for selection :'<,'>normal @a
+- `q{register}{command}q` record macro
+- `@{register}` play macro
+- `@@` replay last play
+- playback stops on motion fail, `1000@a` to play all possible 
+- search and replace: `qq;.q` then `10@q`
+- execute macro for selection `:'<,'>normal @a`
 - `qA append` command to macro `a`
-- ~ gu gU toggles case under cursor
+- `~ gu gU` toggles case under cursor
 
 # Patterns
-- c%(<C-r>") change surrounding
-- /pattern/e search for pattern and place cursor to the end of match
-- // search previous pattern
-- //replacement/ replace previous search pattern
-- ///gn print number of occurrences to be replaced
-- <C-r><C-w> Autocomplete the Search Field Based on Preview Match
+- `c%(<C-r>")` change surrounding
+- `/pattern/e` search for pattern and place cursor to the end of match
+- `//` search previous pattern
+- `//replacement/` replace previous search pattern
+- `///gn` print number of occurrences to be replaced
+- `<C-r><C-w>` Autocomplete the Search Field Based on Preview Match
 
 # Substitution
-- :[range]s[ubstitute]/{pattern}/{string}/[flags]
+- `:[range]s[ubstitute]/{pattern}/{string}/[flags]`
 - flag `c` ask about every substitution
-- c-r/ paste from search register
-- :%s//\=@0/g reference to the register 0 as a pattern
+- `c-r/` paste from search register
+- `:%s//\=@0/g` reference to the register 0 as a pattern
