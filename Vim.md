@@ -59,10 +59,11 @@
 # Motion
 - `gj` `gk` `g0` `g^` `g$` navigate inside wrapped line
 - `d/ge<CR>` remove all until “ge”
-- `ia )">}]twWsp` inside outside
+- `ia )"'>}]twWsp` inside outside
 - `d{motion}` `c{motion}` `y{motion}`
 - `m{a-zA-Z}` set mark az - local to buffer, AZ - global
-- `{mark}/'{mark} go to marks line/line and column
+- `{mark}/'{mark}` go to marks line/line and column
+```
 `` Position before the last jump within current file 
 `. Location of last change
 `^ Location of last insertion
@@ -70,7 +71,8 @@
 `] End of last change or yank 
 `< Start of last visual selection 
 `> End of last visual selection
-- `runtime macros/matchit.vim`
+```
+`runtime macros/matchit.vim`
 
 # Navigate between files
 - `<c-o>/<c-i>` back and forward
