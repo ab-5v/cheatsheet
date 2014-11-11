@@ -1,4 +1,4 @@
-# Find and replase
+# Find and replace
 - `qx{command}q` to record, `@x` to repeat
 - `:s/from/to` to replace, `&` to repeat
 
