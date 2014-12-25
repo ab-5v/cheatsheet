@@ -27,13 +27,13 @@ Each `case` is an `expression` matching a `pattern`:
 ```bash
 case $expression in
   pattern1)
-    command1;
+    command1
   ;;
   pattern2|pattern3)
-    command2;
+    command2
   ;;
   *)
-    default;
+    default
   ;;
 esac
 ```
