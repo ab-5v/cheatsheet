@@ -1,7 +1,7 @@
 Cheatsheet
 ==========
 
-## [Vim](sheets/Vim.md)
+## Vim
 
 [Find and replace](/sheets/Vim.md#find-and-replace) ⧟
 [Normal mode](/sheets/Vim.md#normal-mode) ⧟
@@ -16,4 +16,4 @@ Cheatsheet
 [Patterns](/sheets/Vim.md#patterns) ⧟
 [Substitution](/sheets/Vim.md#substitution)
 
-## [Bash](sheets/Bash.md)
+## Bash
