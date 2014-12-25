@@ -1,5 +1,5 @@
 Cheatsheet
 ==========
 
-- [Vim](Vim.md)
-- [Bash](Bash.md)
+- [Vim](sheets/Vim.md)
+- [Bash](sheets/Bash.md)
