@@ -17,3 +17,6 @@ Cheatsheet
 [Substitution](/sheets/Vim.md#substitution)
 
 ## Bash
+
+[Internal variables](/sheets/Bash.md#internal-variables) ⧟
+[Conditional statements](/sheets/Bash.md#conditional-statements)
