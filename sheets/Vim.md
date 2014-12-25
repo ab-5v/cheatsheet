@@ -1,28 +1,44 @@
-# Find and replace
+Vim
+===
+
+- [Find and replace](/sheets/Vim.md#find-and-replace)
+- [Normal mode](/sheets/Vim.md#normal-mode)
+- [Insert mode](/sheets/Vim.md#insert-mode)
+- [Visual mode](/sheets/Vim.md#visual-mode)
+- [Command mode](/sheets/Vim.md#command-mode)
+- [Open files](/sheets/Vim.md#open-files)
+- [Motion](/sheets/Vim.md#motion)
+- [Navigate between files](/sheets/Vim.md#navigate-between-files)
+- [Registers](/sheets/Vim.md#registers)
+- [Macro](/sheets/Vim.md#macro)
+- [Patterns](/sheets/Vim.md#patterns)
+- [Substitution](/sheets/Vim.md#substitution)
+
+## Find and replace
 - `qx{command}q` to record, `@x` to repeat
 - `:s/from/to` to replace, `&` to repeat
 
-# Normal mode
+## Normal mode
 - `daw` remove the word under cursor
 - `10c-a`/`c-x` change the first number under cursor
 - `nrformats` setting for changing numbers
 - `gu{motion}` `gU` `g~` change case
 
-# Insert mode
+## Insert mode
 - `c-w` delete back a word
 - `c-u` delete back to start of line
 - `c-o` insert normal mode
 - `c-r0` paste from register 0
 - `c-vu1234` paste symbol
 
-# Visual mode
+## Visual mode
 - `gv` reselect the last selection
 - `o` go to other end of selection
 - `vboe` select word from the middle
 - `vr-` replace whole line with “-”
 - `c-v` and `A` to modify line ends
 
-# Command mode
+## Command mode
 - `[rande]d/y[x]` delete/yank lines to the register “x”
 - `[line]p[x]` put the text from `x` after `line`
 - `[range]mv/t(copy) {address}` mv/copy range below the address
@@ -50,13 +66,13 @@
 - `:write !{cmd}` buffer as standard input
 - `:2,$!sort -t',' -k2` apply external command to the rang
 
-# Open files
+## Open files
 - `:e %<tab>` expands current file path
 - `:e %:h<tab>` expands path and removes file name
 - `:set path+=app/**` and `:find main.js`
 - `:!mkdir -p %:h` ensure directory for file
 
-# Motion
+## Motion
 - `gj` `gk` `g0` `g^` `g$` navigate inside wrapped line
 - `d/ge<CR>` remove all until “ge”
 - `ia )"'>}]twWsp` inside outside
@@ -74,7 +90,7 @@
 ```
 - `runtime macros/matchit.vim`
 
-# Navigate between files
+## Navigate between files
 - `<c-o>/<c-i>` back and forward
 - `H/M/L` top/middle/bottom of screen
 - `<c-[>` jump to definition
@@ -83,7 +99,7 @@
 - `:set suffixesadd+=.rb` suffixes for gf
 - `:set path=.,/usr/include,,` path for gf
 
-# Registers
+## Registers
 - `""` unnamed register (default for y,p,d)
 - `"0` yank register
 - `"_` black hole register
@@ -95,7 +111,7 @@
 - `".` Last inserted text
 - insert mode `<c-r>{register}`
 
-# Macro
+## Macro
 - `q{register}{command}q` record macro
 - `@{register}` play macro
 - `@@` replay last play
@@ -105,7 +121,7 @@
 - `qA append` command to macro `a`
 - `~ gu gU` toggles case under cursor
 
-# Patterns
+## Patterns
 - `c%(<C-r>")` change surrounding
 - `/pattern/e` search for pattern and place cursor to the end of match
 - `//` search previous pattern
@@ -113,7 +129,7 @@
 - `///gn` print number of occurrences to be replaced
 - `<C-r><C-w>` Autocomplete the Search Field Based on Preview Match
 
-# Substitution
+## Substitution
 - `:[range]s[ubstitute]/{pattern}/{string}/[flags]`
 - flag `c` ask about every substitution
 - `c-r/` paste from search register
