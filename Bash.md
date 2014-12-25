@@ -1,7 +1,7 @@
 Bash
 ====
 
-# Internal variables
+## Internal variables
 - `$$` PID of the script itself
 - `$!` PID of last job run in background
 - `$?` exit status of the last command
