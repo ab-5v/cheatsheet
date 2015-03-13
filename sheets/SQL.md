@@ -6,7 +6,7 @@
 - `describe <table_name>`
 - `describe function <function_name>`
 
-## Example
+## Examples
 
 ### Sampling
 
