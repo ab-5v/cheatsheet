@@ -20,3 +20,7 @@ Cheatsheet
 
 [Internal variables](/sheets/Bash.md#internal-variables) ⧟
 [Conditional statements](/sheets/Bash.md#conditional-statements)
+
+## Command Line Tools
+
+[xargs](/sheets/Command%20Line%20Tools.md#xargs)
