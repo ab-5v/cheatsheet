@@ -18,7 +18,7 @@ Cheatsheet
 
 ## Bash
 
-[Internal variables](/sheets/Bash.md#internal-variables) c
+[Internal variables](/sheets/Bash.md#internal-variables) ⧟
 [Conditional statements](/sheets/Bash.md#conditional-statements)
 
 ## Command Line Tools
