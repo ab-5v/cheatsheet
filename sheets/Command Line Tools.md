@@ -1,5 +1,8 @@
 # Command Line Tools
 
+- [xargs](#xargs)
+
+
 ## xargs
 
 Pass each line as arguments for few commands
