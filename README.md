@@ -18,9 +18,10 @@ Cheatsheet
 
 ## Bash
 
-[Internal variables](/sheets/Bash.md#internal-variables) ⧟
+[Internal variables](/sheets/Bash.md#internal-variables) c
 [Conditional statements](/sheets/Bash.md#conditional-statements)
 
 ## Command Line Tools
 
-[xargs](/sheets/Command%20Line%20Tools.md#xargs)
+[xargs](/sheets/Command%20Line%20Tools.md#xargs) ⧟
+[iptables](/sheets/Command%20Line%20Tools.md#iptables)
