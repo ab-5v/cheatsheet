@@ -2,6 +2,7 @@
 
 - [xargs](#xargs)
 - [iptables](#iptables)
+- [df](#df)
 
 
 ## xargs
@@ -26,4 +27,10 @@ iptables -I INPUT 5 -s <ip> -p tcp --destination-port <port> -m state --state NE
 Remove rule on specified position
 ```
 iptables -D INPUT 5
+```
+
+## df
+Display free disk space
+```
+df -H
 ```
