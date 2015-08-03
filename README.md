@@ -25,3 +25,5 @@ Cheatsheet
 
 [xargs](/sheets/Command%20Line%20Tools.md#xargs) ⧟
 [iptables](/sheets/Command%20Line%20Tools.md#iptables)
+[df](/sheets/Command%20Line%20Tools.md#df)
+[du](/sheets/Command%20Line%20Tools.md#du)
