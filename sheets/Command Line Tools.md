@@ -3,6 +3,7 @@
 - [xargs](#xargs)
 - [iptables](#iptables)
 - [df](#df)
+- [du](#du)
 
 
 ## xargs
@@ -33,4 +34,10 @@ iptables -D INPUT 5
 Display free disk space
 ```
 df -H
+```
+
+## du
+Disk usage by folder
+```
+sudo du -sh /*
 ```
