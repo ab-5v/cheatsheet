@@ -1,12 +1,12 @@
 Bash
 ====
 
-- [Internal variables](/sheets/Bash.md#internal-variables)
-- [Conditional statements](/sheets/Bash.md#conditional-statements)
-
 ```bash
 #!/bin/bash
 ```
+
+- [Internal variables](/sheets/Bash.md#internal-variables)
+- [Conditional statements](/sheets/Bash.md#conditional-statements)
 
 ## Internal variables
 - `$$` PID of the script itself
