@@ -4,6 +4,10 @@ Bash
 - [Internal variables](/sheets/Bash.md#internal-variables)
 - [Conditional statements](/sheets/Bash.md#conditional-statements)
 
+```bash
+#!/bin/bash
+```
+
 ## Internal variables
 - `$$` PID of the script itself
 - `$!` PID of last job run in background
