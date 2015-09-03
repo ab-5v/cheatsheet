@@ -16,6 +16,9 @@ Cheatsheet
 [Patterns](/sheets/Vim.md#patterns) ⧟
 [Substitution](/sheets/Vim.md#substitution)
 
+## Git
+[Remove branch](/sheets/Git.md#remove-branch)
+
 ## Bash
 
 [Internal variables](/sheets/Bash.md#internal-variables) ⧟
