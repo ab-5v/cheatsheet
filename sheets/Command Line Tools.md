@@ -2,6 +2,7 @@
 
 - [xargs](#xargs)
 - [iptables](#iptables)
+- [echo](#echo)
 - [df](#df)
 - [du](#du)
 - [tr](#tr)
@@ -29,6 +30,12 @@ iptables -I INPUT 5 -s <ip> -p tcp --destination-port <port> -m state --state NE
 Remove rule on specified position
 ```
 iptables -D INPUT 5
+```
+
+## echo
+Echo to STDERR
+```
+>&2 echo "error"
 ```
 
 ## df
