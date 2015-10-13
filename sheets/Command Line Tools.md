@@ -4,6 +4,7 @@
 - [iptables](#iptables)
 - [df](#df)
 - [du](#du)
+- [tr](#tr)
 
 
 ## xargs
@@ -40,4 +41,9 @@ df -H
 Disk usage by folder
 ```
 sudo du -sh /*
+```
+## tr
+Remove non-printable ASCII characters
+```
+tr -cd '\11\12\15\40-\176' < dirty > clean
 ```
