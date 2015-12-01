@@ -1,6 +1,9 @@
 Cheatsheet
 ==========
 
+## Awk
+[Merge lines and sum counters](/sheets/Awk.md)
+
 ## Vim
 
 [Find and replace](/sheets/Vim.md#find-and-replace) ⧟
