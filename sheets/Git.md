@@ -1,6 +1,7 @@
 Git
 ===
 
+- [Push specific commit](/sheets/Git.md#all-commits-up-to-specific-sha)
 - [Remove branch](/sheets/Git.md#remove-branch)
 
 ## Push
