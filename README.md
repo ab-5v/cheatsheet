@@ -20,7 +20,8 @@ Cheatsheet
 [Substitution](/sheets/Vim.md#substitution)
 
 ## Git
-[Remove branch](/sheets/Git.md#remove-branch)
+[Remove branch](/sheets/Git.md#remove-branch) ⧟
+[Push specific commit](/sheets/Git.md#all-commits-up-to-specific-sha)
 
 ## Bash
 
