@@ -13,4 +13,4 @@ Ripping out a wall and moving it six inches is expensive... You have to make the
 
 If you emphasize quality at the end of a project, you emphasize system testing, which is only one part of a complete quality-assurance strategy, and it's not the most influential part.
 
-
+The principle is to find an error as close as possible to the time at whcih it was introduced. The longer the deffect stays, the more expenses you need to fix it.
