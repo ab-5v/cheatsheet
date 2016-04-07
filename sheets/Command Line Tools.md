@@ -6,6 +6,7 @@
 - [df](#df)
 - [du](#du)
 - [tr](#tr)
+- [combo](#combo)
 
 
 ## xargs
@@ -53,4 +54,10 @@ sudo du -sh /*
 Remove non-printable ASCII characters
 ```
 tr -cd '\11\12\15\40-\176' < dirty > clean
+```
+
+## combo
+Find and replace
+```
+git grep -l pattern | xargs sed -i 's|pattern|to|g'
 ```
