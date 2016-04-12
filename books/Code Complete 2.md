@@ -16,3 +16,25 @@ If you emphasize quality at the end of a project, you emphasize system testing, 
 The principle is to find an error as close as possible to the time at whcih it was introduced. The longer the deffect stays, the more expenses you need to fix it.
 
 The *first prerequisite* you need to fulfill is a clear statement of the problem that the system is supposed to solve, called *problem defenition*.
+
+Architectural components
+- program organisation
+- major classes
+- data design
+- business rules
+- user interface design
+- resource management
+- security
+- performance
+- scalability
+- interoperability
+- internationalization
+- input/output
+- error processing ☝
+- fault tolerance
+- architectural feasibility
+- overengineering
+- buy-vs-build decisions
+- reuse decisions
+- change strategy
+- general architecture quality ☝
