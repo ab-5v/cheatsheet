@@ -17,7 +17,7 @@ The principle is to find an error as close as possible to the time at whcih it w
 
 The *first prerequisite* you need to fulfill is a clear statement of the problem that the system is supposed to solve, called *problem defenition*.
 
-Architectural components
+Architectural components:
 - program organisation
 - major classes
 - data design
@@ -30,11 +30,11 @@ Architectural components
 - interoperability
 - internationalization
 - input/output
-- error processing ☝
+- error processing *
 - fault tolerance
 - architectural feasibility
 - overengineering
 - buy-vs-build decisions
 - reuse decisions
 - change strategy
-- general architecture quality ☝
+- general architecture quality *
