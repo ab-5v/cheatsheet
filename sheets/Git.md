@@ -3,8 +3,9 @@ Git
 
 - [Remove branch](/sheets/Git.md#remove-branch)
 - [Push specific commit](/sheets/Git.md#all-commits-up-to-specific-sha)
+- [Checkout file from specific commit](/sheets/Git.md#checkout-file-from-specific-commit)
 
-## Branches
+## Branch
 ### Remove branch
 
 ```
@@ -20,4 +21,11 @@ git push origin :<branchName>
 
 ```
 git push <remotename> <commit SHA>:<remotebranchname>
+```
+
+## Checkout
+#### Checkout file from specific commit
+
+```
+git checkout <commit SHA> <file>
 ```
