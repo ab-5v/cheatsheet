@@ -6,7 +6,7 @@ Git
 - [Checkout file from specific commit](/sheets/Git.md#checkout-file-from-specific-commit)
 
 ## Branch
-### Remove branch
+#### Remove branch
 
 ```
 git push origin --delete <branchName>
@@ -17,7 +17,7 @@ git push origin :<branchName>
 ```
 
 ## Push
-### All commits up to specific SHA
+#### All commits up to specific SHA
 
 ```
 git push <remotename> <commit SHA>:<remotebranchname>
