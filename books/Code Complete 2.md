@@ -38,3 +38,7 @@ Architectural components:
 - reuse decisions
 - change strategy
 - general architecture quality *
+
+## 4. Key Construction Decisions
+
+In a complex program, architectural guidelines give the program structural balance and construction guidelines provides low-level harmony, architecting each class as a faithful part of a comprehensive design.
