@@ -42,3 +42,7 @@ Architectural components:
 ## 4. Key Construction Decisions
 
 In a complex program, architectural guidelines give the program structural balance and construction guidelines provides low-level harmony, architecting each class as a faithful part of a comprehensive design.
+
+Programmers who program "in" a language limit their thoughts to constructs that the language directly supports, if the language tools a primitive, the programmer's thoughts will also be ptrimitive.
+
+Programmers who programm "into" a language first decide what thoughts they want to express, and then they determine how to express those thoughts using the tools provided by their specific language. 
