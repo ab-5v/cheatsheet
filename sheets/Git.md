@@ -2,6 +2,7 @@ Git
 ===
 
 - [Remove branch](/sheets/Git.md#remove)
+- [Cleanup local branches](/sheets/Git.md#cleanup-local-branches)
 - [Push specific commit](/sheets/Git.md#all-commits-up-to-specific-sha)
 - [Checkout file from specific commit](/sheets/Git.md#file-from-specific-commit)
 
@@ -14,6 +15,12 @@ git push origin --delete <branchName>
 or
 ```
 git push origin :<branchName>
+```
+
+#### Cleanup local branches
+```
+git branch -d $(git branch --merged)
+git remote prune origin
 ```
 
 ## Push
